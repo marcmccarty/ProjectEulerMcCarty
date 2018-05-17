@@ -18,6 +18,8 @@ namespace ProjectEulerWorkspace
         {
             bool productFound = false;
             int c = 3;
+            
+            // Essentially n^3 runtime. Seems like it could be improved.
             while (!productFound && c < 997)
             {
                 for (int b = 2; b < c; b++)
