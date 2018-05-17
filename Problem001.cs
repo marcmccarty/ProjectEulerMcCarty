@@ -17,7 +17,6 @@ namespace ProjectEulerWorkspace
             }
             
             Console.WriteLine(sumOfMultiples);
-            Console.ReadLine();
         }
     }
 }
