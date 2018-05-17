@@ -37,7 +37,6 @@ namespace ProjectEulerWorkspace
             long[] ourThousandDigitNum = new long[1000];
             long maxProduct = 0;
             long currentProduct = 1;
-            long[] factors = new long[13];
 
             string ourThousandDigitStr = "";
             string line;
@@ -62,7 +61,6 @@ namespace ProjectEulerWorkspace
             {
                 for (long k = 0; k < 13; k++)
                 {
-                    factors[k] = ourThousandDigitNum[j + k];
                     currentProduct *= ourThousandDigitNum[j + k];
                 }
 
