@@ -33,6 +33,7 @@ namespace ProjectEulerWorkspace
                 sumsToSquare += j;
             }
 
+            // Squaring the sums already totaled
             double squaredSums = Math.Pow(sumsToSquare, 2);
 
 
