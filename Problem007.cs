@@ -26,6 +26,7 @@ namespace ProjectEulerWorkspace
             
             // Jump 2 to skip even numbers
             // No primes are even
+            // I learned a better algorithm that I used in Problem 10
             for (int i = 3; i*i < N; i += 2)
             {
                 for (int j = 3; j*i < N; j+=2)
