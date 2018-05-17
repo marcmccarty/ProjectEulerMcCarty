@@ -6,6 +6,7 @@ namespace ProjectEulerWorkspace
     {
         public static void Main(string[] args)
         {
+            // Arbitrarily large number
             double ourNum = 600851475143;
 
             double highestPossibleFactor = Math.Sqrt(ourNum);
