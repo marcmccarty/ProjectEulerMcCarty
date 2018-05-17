@@ -17,7 +17,7 @@ namespace ProjectEulerWorkspace
             // I'd need to add another 2 to handle 4, and then 5 to handle 5.
             // But now I've got 10 and 15 present as well, so they won't need to be multiplied in.
 
-            // necessaryFactors will start with the primes
+            // necessaryFactors will start with the primes and 1
             ArrayList necessaryFactors = new ArrayList();
 
             necessaryFactors.Add(1);
@@ -39,8 +39,10 @@ namespace ProjectEulerWorkspace
 
             for (int i = 1; i <= 20; i++)
             {
+                // If our current number can't divide by, say, 4...
                 if (currentNecessaryMax % i != 0)
                 {
+                    // We need to multiply by 2
                     currentNecessaryMax *= addNecessaryFactor(i, necessaryFactors);
                 }
             }
