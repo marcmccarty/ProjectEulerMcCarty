@@ -6,8 +6,11 @@ namespace ProjectEulerWorkspace
     {
         public static void Main(string[] args)
         {
+            // Current Fib position
             var counter = 2;
+            // n-1 position
             var prevCounter = 1;
+            // n-2 position
             var prevXCounter = 1;
             
             var total = 0;
