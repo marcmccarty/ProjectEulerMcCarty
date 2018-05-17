@@ -35,6 +35,7 @@ namespace ProjectEulerWorkspace
                 testNum = countdown;
                 originalNum = countdown;
 
+                // Stripping digits from testNum while retaining originalNum
                 sixthDigit = testNum % 10;
                 testNum /= 10;
                 
