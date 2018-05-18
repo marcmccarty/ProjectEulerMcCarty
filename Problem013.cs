@@ -126,7 +126,7 @@ namespace ProjectEulerWorkspace
             
             file.Close();
 
-            for (int i = 0; i < sumArray.Length; i++)
+            for (int i = 0; i < sumStrings.Length; i++)
             {
                 sum += Convert.ToInt64(sumStrings[i]);
 
